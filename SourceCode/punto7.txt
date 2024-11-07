@@ -1,0 +1,23 @@
+write("Escribir un programa en este lenguaje que ingrese N numeros y calcule su promedio y su varianza.");
+dec contador, sumatoria, n,resp, promedio,varianza;;
+varianza:=0.0;
+contador:=0.0;
+sumatoria:=0.0;
+promedio:=0.0;
+resp:=0.0;
+resp:=1.0;
+if {resp=1.0} then
+begin
+	while {resp = (1.0)} do
+	read ("ingrese numero: ",n);
+	contador:=contador+(1.0);
+	sumatoria:=(sumatoria + n);
+	read("si desea continuar ingresando responda 1.0: ",resp);
+	end;
+	promedio:=sumatoria/contador;
+	varianza:=(sumatoria - promedio)/contador;
+	write("Promedio= ",promedio);
+	write("Varianza= ",varianza);
+else
+write("se decidio no ingresar.");
+end;

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1497193866"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq -FiC:\Users\aaron\Desktop\PROYECTOS\SYSL\SourceCode\lib\x86_64-win64 -FuC:\Users\aaron\Desktop\PROYECTOS\SYSL\SourceCode\ -FUC:\Users\aaron\Desktop\PROYECTOS\SYSL\SourceCode\lib\x86_64-win64\ -FEC:\Users\aaron\Desktop\PROYECTOS\SYSL\SourceCode\ -oC:\Users\aaron\Desktop\PROYECTOS\SYSL\SourceCode\TPF.exe TPF.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

@@ -1,0 +1,36 @@
+write("determinar si un nro. es primo");
+dec x,c,r;;
+r:=1.0;
+read("Ingrese el numero: ",x);
+c:=x-1.0;
+while {{c > 1.0} and {r > 0.0}} do
+r:=x;
+while {r >= c} do
+r:=r-c;
+end;
+c:=c-1.0;
+end;
+if {r > 0.0} then
+begin
+write("el numero es primo");
+else
+write("el numero es compuesto");
+end;
+write("determinar si un nro. es primo");
+dec x,c,r;;
+r:=1.0;
+read("Ingrese el numero: ",x);
+c:=x-1.0;
+while {c > 1.0 and r > 0.0} do
+	r:=x;
+	while {r >= c} do
+		r:=r-c;
+	end;
+	c:=c-1.0;
+end;
+if {r > 0.0} then
+begin
+	write("el numero es primo");
+else
+	write("el numero es compuesto");
+end;

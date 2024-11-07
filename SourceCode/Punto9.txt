@@ -1,0 +1,17 @@
+dec a,b,t,c,r,f,op;;
+a:=0.0;
+b:=1.0;
+write("		-SERIE DE FIBONACCI-");
+while {t < 1.0} do
+read("Ingrese cantidad de terminos que desea calcular: ",t);
+end;
+c:=0.0;
+while {(c) <= (t)} do
+c:= (c +1.0);
+f:= (a + b);
+a:=b;
+b:=f;
+write(c,": ",f);
+end;
+
+

@@ -1,0 +1,17 @@
+dec val1,val2,sumatoria;;
+
+read("Ingrese val1: ",val1);
+read("Ingrese val2: ",val2);
+sumatoria:=0.0;
+if {(val1+1.0) < val2} then
+begin
+write("entra if");
+while {(val1 + 1.0) < val2} do
+val1:=(val1+1.0);
+write("val: ",val1);
+sumatoria:=(suma`toria+val1);
+end;
+write(sumatoria);
+else
+write("Error. Pruebe nuevamente cambiando los valores.");
+end;
